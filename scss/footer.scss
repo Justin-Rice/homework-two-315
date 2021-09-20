@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  width: 100%;
+  background-color: #2c1a1d;
+  padding-top: 50px;
+  position: absolute;
+
+  &__flex {
+    //background-color: aqua;
+    height: 200px;
+    width: 400px;
+    min-width: 200px;
+    margin: 0 auto;
+
+    &__list {
+      color: white;
+      font-size: 20 px;
+      list-style-type: none;
+      text-align: center;
+
+      h4 {
+        font-size: 22px;
+        font-weight: 100;
+        color: #c89fa3;
+      }
+      li {
+        line-height: 2;
+
+        span {
+          font-style: bold;
+          color: #c89fa3;
+        }
+      }
+    }
+  }
+}

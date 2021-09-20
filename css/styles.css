@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2C1A1D;
+  height: 80px;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 250px;
+  width: 100%;
+  background-color: #2c1a1d;
+  padding-top: 50px;
+  position: absolute;
+}
+.footer__flex {
+  height: 200px;
+  width: 400px;
+  min-width: 200px;
+  margin: 0 auto;
+}
+.footer__flex__list {
+  color: white;
+  font-size: 20 px;
+  list-style-type: none;
+  text-align: center;
+}
+.footer__flex__list h4 {
+  font-size: 22px;
+  font-weight: 100;
+  color: #c89fa3;
+}
+.footer__flex__list li {
+  line-height: 2;
+}
+.footer__flex__list li span {
+  font-style: bold;
+  color: #c89fa3;
+}
+
+.hero {
+  color: whitesmoke;
+  margin: 0 auto;
+  height: 400px;
+  width: 1110;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: full;
+}
+.hero.hero--home1 {
+  width: full;
+  height: 600px;
+  background-color: aqua;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/home-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-hero.jpg);
+}
+.hero.hero--home2 {
+  width: full;
+  height: 600px;
+  background-color: aqua;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/home-hero2.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-hero2.jpg);
+  text-align: right;
+}
+.hero.hero--home2 .text-container {
+  width: 300px;
+  position: relative;
+  left: 200px;
+}
+.hero.hero--shop {
+  height: 600px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/shop-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/shop-hero.jpg);
+  text-align: right;
+}
+.hero.hero--shop .text-container {
+  text-align: center;
+  width: 800px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hero.hero--about {
+  height: 600px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/about-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-hero.jpg);
+  text-align: right;
+}
+.hero.hero--about .text-container {
+  text-align: center;
+  width: 800px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hero.hero--about2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/about-hero2.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-hero2.jpg);
+  text-align: right;
+}
+.hero.hero--about2 .text-container {
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.hero.hero--contact {
+  height: 1100px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/contact-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact-hero.jpg);
+  text-align: center;
+}
+.hero.hero--contact .text-container {
+  width: 800px;
+}
+
+.products {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-height: calc(67vh - 50px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.products__flex {
+  height: 800px;
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.products__flex__holder {
+  height: 350px;
+  width: 250px;
+  background: #6c534e;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid;
+  border-color: #6c534e;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/products.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/products.jpg);
+}
+.products__flex__holder h2 {
+  color: #c89fa3;
+  background-color: #2c1a1d;
+}
+
+@media (max-width: 900px) {
+  .products {
+    margin: 0 auto;
+    height: 1200px;
+    width: 600px;
+  }
+  .products__flex {
+    margin: 0 auto;
+    height: 1200px;
+    width: 600px;
+  }
+}

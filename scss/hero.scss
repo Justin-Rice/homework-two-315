@@ -1,0 +1,111 @@
+.hero {
+  color: whitesmoke;
+  margin: 0 auto;
+  height: 400px;
+  width: 1110;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: full;
+
+  &.hero--home1 {
+    width: full;
+    height: 600px;
+    background-color: aqua;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/home-hero.jpg);
+  }
+  &.hero--home2 {
+    width: full;
+    height: 600px;
+    background-color: aqua;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/home-hero2.jpg);
+    text-align: right;
+    .text-container {
+      width: 300px;
+      position: relative;
+      left: 200px;
+    }
+  }
+  &.hero--shop {
+    //margin-top: 50px;
+    height: 600px;
+    //background-color: aqua;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/shop-hero.jpg);
+    text-align: right;
+    .text-container {
+      text-align: center;
+      width: 800px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+  &.hero--about {
+    height: 600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/about-hero.jpg);
+    text-align: right;
+    .text-container {
+      text-align: center;
+      width: 800px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+  &.hero--about2 {
+    display: flex;
+    height: 600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/about-hero2.jpg);
+    text-align: right;
+    .text-container {
+      text-align: center;
+      height: 400px;
+      //background-color: aliceblue;
+      width: 400px;
+      margin-left: 50px;
+      margin-right: 50px;
+      justify-content: space-around;
+    }
+  }
+  &.hero--contact {
+    height: 1100px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/contact-hero.jpg);
+    text-align: center;
+
+    .text-container {
+      width: 800px;
+    }
+  }
+}
